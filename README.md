@@ -1,6 +1,6 @@
 # Kineticraft Halloween 2021
 
-This is the 1.16.5 datapack used on Kineticraft Server for the 2021 Halloween Event.
+This is the 1.16.5 datapack used on the Kineticraft Server for the 2021 Halloween Event.
 It has been developed by ElitoGame from September 2021 till October 2021.
 
 ## Features
