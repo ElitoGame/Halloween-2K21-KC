@@ -1,0 +1,2 @@
+execute at @s if predicate halloween:chances/5 run summon potion ~ ~2 ~ {Item:{id:"minecraft:splash_potion",Count:1b,tag:{CustomPotionColor:6881280,CustomPotionEffects:[{Id:7b,Amplifier:1b,Duration:1}]}}}
+advancement revoke @s only halloween:mobs/skeleton_rider/hit

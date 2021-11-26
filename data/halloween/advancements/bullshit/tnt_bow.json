@@ -1,0 +1,24 @@
+{
+"criteria": {
+    "requirement": {
+    "trigger": "minecraft:player_hurt_entity",
+    "conditions": {
+        "player": {
+        "equipment": {
+            "mainhand": {
+            "item": "minecraft:bow",
+            "nbt": "{bullshit:boom}"
+            }
+        }
+        },
+        "damage": {
+        "type": {
+            "is_projectile": true
+        }
+        }
+    }
+    }
+}, "rewards": {
+    "function": "halloween:bullshit/tnt_bow"
+}
+}

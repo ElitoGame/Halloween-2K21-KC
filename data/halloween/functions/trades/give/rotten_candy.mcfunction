@@ -1,0 +1,1 @@
+give @s rotten_flesh{display:{Name:'{"text":"Rotten Candy","color":"dark_red","italic":false}',Lore:['{"text":"Ahh, the sweet disgusting smell"}','{"text":"of freshly rotten Candy!"}','{"text":" "}','{"text":"Can be traded for Sweet Candy","color":"gray"}','{"text":"Part of the Kineticraft Halloween Event 2021.","color":"gray"}']},hw_rotten_candy:1b} 1

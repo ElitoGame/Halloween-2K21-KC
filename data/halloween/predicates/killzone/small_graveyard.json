@@ -1,0 +1,49 @@
+[
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 2117,
+                "max": 2165
+              },
+              "y": {
+                "min": 86,
+                "max": 100
+              },
+              "z": {
+                "min": -1750,
+                "max": -1707
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "position": {
+            "x": {
+              "min": 2112,
+              "max": 2170
+            },
+            "y": {
+              "min": 81,
+              "max": 105
+            },
+            "z": {
+              "min": -1755,
+              "max": -1702
+            }
+          }
+        }
+      }
+    }
+  ]

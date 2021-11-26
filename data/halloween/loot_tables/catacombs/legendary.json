@@ -1,0 +1,170 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 0,
+          "max": 1
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_scrap"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 0,
+          "max": 1
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:turtle_egg"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 0,
+          "max": 1
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 0,
+          "max": 1
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:totem_of_undying"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 0,
+          "max": 4
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_carrot",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Sweet Candy\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Oh so sweet! What a delightful taste!\"}','{\"text\":\" \"}','[{\"text\":\"Consume to active 2 Minutes of \",\"color\":\"gray\"},{\"text\":\"Candy Rush\",\"color\":\"red\"},{\"text\":\"!\",\"color\":\"gray\"}]','{\"text\":\" During the rush, you will get effects,\",\"color\":\"gray\"}','[{\"text\":\" depending on your \",\"color\":\"gray\"},{\"text\":\"scariness\",\"color\":\"dark_red\"},{\"text\":\", as well as\",\"color\":\"gray\"}]','{\"text\":\" have a increased chance of getting\",\"color\":\"gray\"}','[{\"text\":\" Sweet Candy\",\"color\":\"gold\"},{\"text\":\" from\",\"color\":\"gray\"},{\"text\":\" Candy Zombies\",\"color\":\"red\"},{\"text\":\"!\",\"color\":\"gray\"}]','{\"text\":\"Part of the Kineticraft Halloween Event 2021.\",\"color\":\"gray\"}']},hw_sweet_candy:1b}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 0,
+          "max": 1
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:nautilus_shell",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 0,
+          "max": 4
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gunpowder"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 1,
+          "max": 5
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cobweb"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 2,
+          "max": 5
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rotten_flesh",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"text\":\"Rotten Candy\",\"color\":\"dark_red\",\"italic\":false}',Lore:['{\"text\":\"Ahh, the sweet disgusting smell\"}','{\"text\":\"of freshly rotten Candy!\"}','{\"text\":\" \"}','{\"text\":\"Can be traded for Sweet Candy\",\"color\":\"gray\"}','{\"text\":\"Part of the Kineticraft Halloween Event 2021.\",\"color\":\"gray\"}']},hw_rotten_candy:1b}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 2,
+          "max": 3
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Blood",
+                  "color": "dark_red"
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Blood of past enemies and travellers",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

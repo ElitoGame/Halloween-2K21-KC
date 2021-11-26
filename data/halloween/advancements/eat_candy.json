@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "nbt": "{hw_sweet_candy:true}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "halloween:candy_rush/eat_candy"
+    }
+  }
+  

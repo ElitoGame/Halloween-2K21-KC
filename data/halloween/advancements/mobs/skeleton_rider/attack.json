@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:stray",
+            "nbt": "{Tags:[\"hw_skeleton_rider\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "halloween:mobs/skeleton_rider/attack"
+  }
+}
+  

@@ -1,0 +1,2 @@
+summon zombie ^ ^ ^-1 {DeathLootTable:"halloween:empty",Tags:["fun"],CustomNameVisible:1b,CanPickUpLoot:0b,Health:10f,IsBaby:0b,CanBreakDoors:0b,CustomName:'{"text":"Revived Zombie","italic":true}',ArmorItems:[{},{},{},{id:"minecraft:carved_pumpkin",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],Attributes:[{Name:"generic.max_health",Base:10},{Name:"generic.attack_damage",Base:5.5},{Name:"generic.armor",Base:7}]}
+tellraw @s {"text":"A zombie you killed was brought back by the power of Candy.","color":"gray","italic":true}

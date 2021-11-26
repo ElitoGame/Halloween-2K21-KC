@@ -1,0 +1,19 @@
+
+execute if predicate halloween:masks/mask_1 run scoreboard players operation @s hw_data /= #mask_1 hw_data
+execute if predicate halloween:masks/mask_2 run scoreboard players operation @s hw_data /= #mask_2 hw_data
+execute if predicate halloween:masks/mask_3 run scoreboard players operation @s hw_data /= #mask_3 hw_data
+execute if predicate halloween:masks/mask_4 run scoreboard players operation @s hw_data /= #mask_4 hw_data
+execute if predicate halloween:masks/mask_5 run scoreboard players operation @s hw_data /= #mask_5 hw_data
+execute if predicate halloween:masks/mask_6 run scoreboard players operation @s hw_data /= #mask_6 hw_data
+execute if predicate halloween:masks/mask_7 run scoreboard players operation @s hw_data /= #mask_7 hw_data
+execute if predicate halloween:masks/mask_8 run scoreboard players operation @s hw_data /= #mask_8 hw_data
+execute if predicate halloween:masks/mask_9 run scoreboard players operation @s hw_data /= #mask_9 hw_data
+execute if predicate halloween:masks/mask_10 run scoreboard players operation @s hw_data /= #mask_1 hw_data
+execute if predicate halloween:masks/mask_11 run scoreboard players operation @s hw_data /= #mask_2 hw_data
+execute if predicate halloween:masks/mask_12 run scoreboard players operation @s hw_data /= #mask_3 hw_data
+execute if predicate halloween:masks/mask_13 run scoreboard players operation @s hw_data /= #mask_4 hw_data
+execute if predicate halloween:masks/mask_14 run scoreboard players operation @s hw_data /= #mask_5 hw_data
+execute if predicate halloween:masks/mask_15 run scoreboard players operation @s hw_data /= #mask_6 hw_data
+execute if predicate halloween:masks/mask_16 run scoreboard players operation @s hw_data /= #mask_7 hw_data
+execute if predicate halloween:masks/mask_17 run scoreboard players operation @s hw_data /= #mask_8 hw_data
+execute if predicate halloween:masks/mask_18 run scoreboard players operation @s hw_data /= #mask_9 hw_data

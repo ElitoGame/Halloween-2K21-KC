@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zoglin",
+          "nbt": "{Tags:[\"hw_zoglin\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "halloween:mobs/zoglin/claim_life"
+  }
+}
